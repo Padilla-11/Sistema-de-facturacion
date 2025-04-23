@@ -239,7 +239,7 @@ public class Main {
         } else {
             System.out.println("Productos encontrados:");
             for (Producto p : encontrados) {
-                System.out.println("- " + p.getNombre() + " | Ubicación: " + p.getUbicacion());
+                System.out.println("- " + p.getNombre() + " | Codigo: " + p.getCodigo() + " | Ubicación: " + p.getUbicacion());
             }
         }
     }
