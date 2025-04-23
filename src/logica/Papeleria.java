@@ -96,7 +96,7 @@ public class Papeleria {
             String nombre = producto.getNombre().toLowerCase();
             String descripcion = producto.getDescripcion().toLowerCase();
 
-            if (nombre.contains(textoBusqueda) || descripcion.contains(textoBusqueda) || codigo.contains(textoBusqueda)) || {
+            if (nombre.contains(textoBusqueda) || descripcion.contains(textoBusqueda) || codigo.contains(textoBusqueda)) {
                 resultados.add(producto);
             }
         }
