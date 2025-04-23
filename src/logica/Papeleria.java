@@ -92,7 +92,7 @@ public class Papeleria {
         String textoBusqueda = texto.toLowerCase();
 
         for (Producto producto : productos) {
-            String codigo = producto.getNombre().toLowerCase();
+            String codigo = producto.getCodigo().toLowerCase();
             String nombre = producto.getNombre().toLowerCase();
             String descripcion = producto.getDescripcion().toLowerCase();
 
